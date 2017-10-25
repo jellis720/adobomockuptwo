@@ -25,13 +25,21 @@ body{
   font-size: 1.5em;
   color: black;
   text-shadow: 1px 1px 1px lightyellow;
+  text-decoration: none
+}
+
+.nav-link a:hover{
+  font-size: 1.5em;
+  color: black;
+  text-shadow: 1px 1px 1px lightyellow;
+  text-decoration: underline
 }
 
 .logoImage{
   height: 48px
 }
 
-.aboutPage{
+#aboutPage{
   display: flex;
   flex-direction: column;
   flex: none;
@@ -104,7 +112,7 @@ body{
   justify-content: center;
 }
 
-.contactContent{
+#contactContent{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,7 +138,7 @@ body{
   width: 100px;
 }
 
-.menuPage{
+#menuPage{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -162,7 +170,7 @@ body{
   width: 100%
 }
 
-.calendarContent{
+#calendarContent{
   margin: 8% auto;
   display: flex;
   width: 100%;
