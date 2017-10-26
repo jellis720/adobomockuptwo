@@ -177,7 +177,7 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   font-family: 'Pompiere', cursive;
-  text-shadow: 1px 1px 1px lightyellow;
+  text-shadow: 1px 1px 1px black;
   color: white
 }
 
